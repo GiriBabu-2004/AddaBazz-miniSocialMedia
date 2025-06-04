@@ -1,0 +1,20 @@
+/* Aurora.css */
+.aurora-container {
+  position: fixed;        /* use fixed to cover viewport even on scroll */
+  top: 0;
+  left: 0;
+  width: 100vw;           /* full viewport width */
+  height: 100vh;          /* full viewport height */
+  z-index: 0;
+  pointer-events: none;   /* so clicks pass through */
+  overflow: hidden;       /* prevent scrollbars */
+}
+
+.aurora-container canvas {
+  display: block;         /* remove inline gaps */
+  width: 100% !important; /* force canvas to fill container */
+  height: 100% !important;
+  position: absolute;     /* fill the container */
+  top: 0;
+  left: 0;
+}
