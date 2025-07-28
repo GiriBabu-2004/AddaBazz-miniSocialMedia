@@ -5,7 +5,6 @@ A full-stack social media app built with the **MERN** stack, featuring **Vite**,
 Enjoy smooth animations, modern UI, and powerful functionality! ✨
 
 ---
-
 ## 🌟 Features
 
 - 🔐 User Authentication (Register, Login, Logout)  
